@@ -8,6 +8,7 @@ var people = [
     age: 30
   },
 ]
+
 var arr = [4, 5, 7, 8, 14, 45, 76];
 
 function even(a) {
@@ -17,3 +18,4 @@ function even(a) {
 }
 
 alert(even(arr));
+

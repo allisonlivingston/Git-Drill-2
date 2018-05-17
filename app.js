@@ -8,3 +8,13 @@ var people = [
     age: 30
   },
 ]
+
+var people2 = [{
+    name: 'Coleman',
+    age: 34
+  },
+  {
+    name: 'Matt Hyrka',
+    age: 32
+  },
+]

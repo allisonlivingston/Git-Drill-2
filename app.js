@@ -9,11 +9,13 @@ var people = [
   },
 ]
 
-var a = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-    b = [];
+var arr = [4, 5, 7, 8, 14, 45, 76];
 
-for (var i = 0; i < a.length; ++i) {
-    if ((a[i] % 2) === 0) {
-        b.push(a[i]);
-    }
+function even(a) {
+  return a.filter(function (val) {
+    return val % 2 === 0
+  })
 }
+
+alert(even(arr));
+
